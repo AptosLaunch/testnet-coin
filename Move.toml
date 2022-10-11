@@ -1,0 +1,10 @@
+[package]
+name = 'AptosLaunch'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+aptos_launch = "0x27ba8993306a826e00eeece12e0a6b50e9a7217875589d19510dc543f1e66862"
